@@ -1,4 +1,4 @@
-# MovieFlix
+# MovieMax
 
 ## Description
 Watch Movies on switch
@@ -14,7 +14,7 @@ Make sure you have the following installed before running the project:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/erky55/movieflix.git
+    git clone https://github.com/erky55/moviemax.git
     cd movieflix
     ```
 
@@ -28,8 +28,6 @@ Make sure you have the following installed before running the project:
 
     ```env
     BOT_TOKEN=your_bot_token
-    APP_ICON=https://f004.backblazeb2.com/file/switch-bucket/e78c287a-abc0-11ee-883b-d41b81d4a9ef.png
-    SECONDARY_ICON=https://f004.backblazeb2.com/file/switch-bucket/6c0928da-abc3-11ee-82f3-d41b81d4a9ef.png
     ```
 
     Replace `your_bot_token` with the actual token for your bot.
@@ -45,8 +43,6 @@ python main.py
 ## Configuration
 
 - `BOT_TOKEN`: Telegram bot token obtained from the BotFather.
-- `APP_ICON`: URL for the main app icon.
-- `SECONDARY_ICON`: URL for the secondary app icon.
 
 ## Contributing
 
