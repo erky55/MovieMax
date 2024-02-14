@@ -1,0 +1,6 @@
+aiohttp
+requests
+swibots
+python-decouple
+apscheduler
+beautifulsoup4
