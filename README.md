@@ -15,7 +15,7 @@ Make sure you have the following installed before running the project:
 
     ```bash
     git clone https://github.com/erky55/moviemax.git
-    cd movieflix
+    cd moviemax
     ```
 
 2. Install dependencies:
@@ -43,6 +43,11 @@ python main.py
 ## Configuration
 
 - `BOT_TOKEN`: Telegram bot token obtained from the BotFather.
+
+## ADS Settings
+- `ADS_TOKEN`: Token of SHAREUS
+- `SHARE_URL`: the url to share (i.e https://sh...to/...)
+- `RESOLVED_URL`: the actual url, of `SHARE_URL` (used for verification based on user navigation)
 
 ## Contributing
 
