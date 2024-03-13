@@ -4,3 +4,5 @@ swibots
 python-decouple
 apscheduler
 beautifulsoup4
+schedule
+aiohttp-client-cache
