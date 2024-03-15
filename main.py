@@ -192,7 +192,8 @@ async def openAPP(ctx: BotContext[CallbackQueryEvent]):
         )
     else:
         comps.append(s.Embed(url,
-                             landscape=True))
+                             landscape=True,
+                            allow_navigation=False))
 
     await ctx.event.answer(
         callback=s.AppPage(
