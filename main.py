@@ -197,7 +197,7 @@ async def openAPP(ctx: BotContext[CallbackQueryEvent]):
     await ctx.event.answer(
         callback=s.AppPage(
             components=comps,
-        )
+        ), new_page=True
     )
 
 
